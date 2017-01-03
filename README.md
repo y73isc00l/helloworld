@@ -10,15 +10,15 @@ example:
 	python organise.py /home/<username>/Desktop pdf /home/<username>/Documents/study
 	Here the <username> by ur account name and the extension of the files must be written without '.'
 #This is my first python script, So i have tried to be as detailed as possible.
- #flatten.py
- Purpose
- convert nested lists in python to ordinary list.
- example:['a',34,'asd',['as',3.4,[3,'l']]] is converted to ['a',34,'asd','as',3.4,3,'1']
- usage
- the file must be compiled
- before use
- in the interpretor write the following commands
- >>nestedlist=[[],[,[]]]
- >>import flatten
- >>generator=flatten.my_flatten(nestedlist)
- >>list(generator)   ###this gives the required list
+
+<h1>flatten.py User Guide</h1>
+<h3>Purpose</h3>
+ convert nested lists in python to ordinary list.<br>
+ example:['a',34,'asd',['as',3.4,[3,'l']]] is converted to ['a',34,'asd','as',3.4,3,'1']<br>
+ <h3>Usage</h3>
+ the file must be compiledbefore use<br>
+ in the interpretor write the following commands<br>
+ >nestedlist=[...]<br>
+ >import flatten<br>
+ >generator=flatten.my_flatten(nestedlist)<br>
+ >list(generator)   ###this gives the required list
